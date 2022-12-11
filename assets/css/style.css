@@ -2,6 +2,16 @@
     margin: 0;
 }
 
+header {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
 body {
     background: radial-gradient(#1d1d1d,#000000);
 }
@@ -15,4 +25,24 @@ body {
     height: 33.3vh;
     border: 1px solid white;
     
+}
+
+.tile-title {
+    color: white;
+    text-align: center;
+}
+
+/* Button Click Container */
+
+#click-btn {
+    color: white;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    padding-left: 8px;
+    cursor: pointer;
 }
