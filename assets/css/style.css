@@ -41,7 +41,7 @@ body {
     margin-top: 25px;
     margin-left: 150px;
     font-size: 20px;
-    border: 2px solid white;
+    border: 2px solid black;
     width: 100px;
     border-radius: 5px;
     background-color: white;
@@ -51,7 +51,7 @@ body {
 #clear {
     font-weight: 500;
     font-size: 20px;
-    border: 2px solid white;
+    border: 2px solid black;
     width: 100px;
     border-radius: 5px;
     background-color: white;
@@ -61,7 +61,37 @@ body {
     display: none;
 }
 
-.click-cont {
+.click-cont-1 {
     display: flex;
     flex-direction: column;
+}
+
+.click-cont-2 {
+    display: flex;
+}
+
+.top-cont {
+    display: flex;
+}
+
+.button-container-mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.click-cont-1,
+.click-cont-2,
+.click-cont-3 {
+    width: 33.3vw;
+}
+
+.mid-btn,
+.clear-mid {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
 }
