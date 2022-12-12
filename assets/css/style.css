@@ -35,14 +35,33 @@ body {
 /* Button Click Container */
 
 #click-btn {
-    color: white;
+    color: black;
+    font-weight: 500;
     position: relative;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 150px;
     font-size: 20px;
     border: 2px solid white;
-    border-radius: 5px;
     width: 100px;
-    padding-left: 8px;
+    border-radius: 5px;
+    background-color: white;
     cursor: pointer;
+}
+
+#clear {
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid white;
+    width: 100px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.click-cont {
+    display: flex;
+    flex-direction: column;
 }
